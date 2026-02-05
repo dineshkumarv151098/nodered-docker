@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tab1",
+    "type": "tab",
+    "label": "WSL Git Demo"
+  },
+  {
+    "id": "inject1",
+    "type": "inject",
+    "z": "tab1",
+    "name": "Trigger",
+    "payload": "Hello from native Docker",
+    "payloadType": "str",
+    "wires": [["debug1"]]
+  },
+  {
+    "id": "debug1",
+    "type": "debug",
+    "z": "tab1",
+    "name": "Output",
+    "active": true
+  }
+]
