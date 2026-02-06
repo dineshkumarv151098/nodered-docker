@@ -17,5 +17,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASS }}
 
       - run: |
-          docker build -t yourdockerhub/nodered:latest .
-          docker push yourdockerhub/nodered:latest
+          docker build -t dkv6/nodered:latest .
+          docker push dkv6/nodered:latest
